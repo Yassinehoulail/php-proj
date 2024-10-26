@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Avancé</title>
+    <link rel="stylesheet" href="tp prj.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page </h1>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle Yassine Houlail et j'aime apprendre à coder. Voici une photo de moi :</p>
+        <img src="ana.jpg" alt="Mon Image">
+    </section>
+
+    <section id="hobbies">
+        <h2>Mes Hobbies et Objectifs</h2>
+        <ul>
+<li>profiter de la nature et rester actif</li>
+<li>ameliorer des produits</li>
+<li>travailler en equipe</li>
+        </ul>
+    </section>
+
+    <section id="friends">
+        <h2>Tableau de mes Amis</h2>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+                <th>Ville</th>
+                <th>Profil</th>
+            </tr>
+            <tr>
+                <td>omar chouri</td>
+                <td>19</td>
+                <td>casa</td>
+                <td><a href="#">Voir le profil</a></td>
+            </tr>
+            <tr>
+                <td>sadam housein</td>
+                <td>70</td>
+                <td>casa</td>
+                <td><a href="#">Voir le profil</a></td>
+            </tr>
+            <tr>
+                <td>rim nabil</td>
+                <td>20</td>
+                <td>casa</td>
+                <td><a href="#">Voir le profil</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Formulaire de Contact</h2>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <script src="validation.js"></script>
+</body>
+</html>
